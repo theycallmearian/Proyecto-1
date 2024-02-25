@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Àrian Castro" />
+    <meta name="keywords" content="pizza, massa, comida, domicilio" />
+    <meta property="og:title" content="HTML" />
+    <meta
+      name="description"
+      content="Tienes hambre? Pide online tu pizza favorita y disfruta de nuestra deliciosa comida a domicilio. Consulta todas nuestras ofertas y promociones. Esto es el proyecto 1 de Rock The Code"
+    />
+    <title>Pizza y comida a domicilio | Pedidos online - Arianpizza</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="./assets/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+  </head>
+  <body>
+    <header>
+      <section id="primary" class="fixed">
+        <div class="flexbox needu">
+          <img id="hidenbox" src="./assets/icon-nav-menu.svg" alt="Menú">
+          <img src="./assets/arianpizzalogo_white.svg" alt="Logo Arianpizza" />
+          <nav class="flexbox">
+            <ul class="flexbox menuheader">
+              <li class="desapear">
+                <a
+                  href="https://www.telepizza.es/account/login"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <i class="iconuser"></i>Inicia sesión</a
+                >
+              </li>
+              <li class="desapear"> 
+                <a
+                  href="https://www.telepizza.es/registro"
+                  rel="noopener"
+                  target="_blank"
+                  >Regístrate</a
+                >
+              </li>
+              <li class="separator desapear"></li>
+              <li class="mitelepi desapear">MI ARIPI</li>
+              <li class="separator desapear"></li>
+              <li id="special desapear">
+                <img id="lang" src="./assets/language.png" alt="Lenguaje"  class="desapear"/>
+              </li>
+          
+              <li id="acceso">
+                <a
+                  href="hhttps://www.telepizza.es/account/login"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <img id="usuario" src="./assets/icon-user.svg"/> Acceso
+                </a>
+              </li>
+              <li id="carrito">
+                <a
+                  href="https://www.telepizza.es/comida-a-domicilio/pizzas?openBasket=true"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <img id="basket" src="./assets/icon-basket.svg" /> Carrito
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <nav class="fixed">
+        <ul class="upermenu flexbox">
+          <li>
+            <a
+              href="https://www.telepizza.es/comida-a-domicilio/ofertas"
+              rel="noopener"
+              target="_blank"
+            >
+              <i class="iconoffers icon"></i> Ofertas</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.telepizza.es/comida-a-domicilio/menus"
+              rel="noopener"
+              target="_blank"
+            >
+              <i class="iconmenus icon"></i> Menús</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.telepizza.es/comida-a-domicilio/pizzas"
+              rel="noopener"
+              target="_blank"
+            >
+              <i class="iconpizza icon"></i>Pizzas</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.telepizza.es/comida-a-domicilio/entrantes"
+              rel="noopener"
+              target="_blank"
+            >
+              <i class="iconopres icon"></i>Entrantes</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.telepizza.es/comida-a-domicilio/bebidas"
+              rel="noopener"
+              target="_blank"
+            >
+              <i class="icondrinks icon"></i>Bebidas</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.telepizza.es/comida-a-domicilio/postres"
+              rel="noopener"
+              target="_blank"
+            >
+              <i class="icondesserts icon"></i>Postres</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="slider">
+        <ul>
+          <li>
+            <img
+              src="./assets/herobanner-2medianas-1920x1080.jpg"
+              alt="2 x 1 en Medianas"
+            />
+          </li>
+          <li>
+            <img
+              src="./assets/herobanner-megamediana-1920x1080.jpg"
+              alt="Megamediana"/>
+          </li>
+          <li>
+            <img
+              src="./assets/herobanner-2medianas-1920x1080.jpg"
+              alt="2 x 1 en Medianas"
+            />
+          </li>
+          <li>
+            <img
+              src="./assets/herobanner-megamediana-1920x1080.jpg"
+              alt="Megamediana"/>
+          </li>
+          </li>
+        </ul>
+      </section>
+      <div class="descubre flexbox">
+      <h2>Descubre nuestras ofertas</h2>
+      <a class="vermas" href="https://www.telepizza.es/comida-a-domicilio/ofertas"               rel="noopener"
+      target="_blank">Ver más > </a>
+    </div>
+      <section class="productos grid-container">
+        <article class="card principal grid-container">
+          <img
+            src="./assets/article1.jpg" alt="MegaMediana Promo"
+          />
+          <h3>MEGAMEDIANA, la mediana XXL</h3>
+          <p class="description">
+            La mediana más grande de todas las medianas. Con 33 cm de diámetro, que se dice pronto. Pídela en es...
+          </p>
+          <a class="vermas" href="https://www.telepizza.es/comida-a-domicilio/ofertas/?coupon-code=IAB.1P10"rel="noopener"
+          target="_blank">Ver más ></a>
+          <div class="grid-container spaceme">
+            <button>AÑADIR</button>
+          </div>
+        </article>
+        <article class="card principal grid-container">
+          <img
+            src="./assets/article2.jpg" alt="Dos Medianas Promo"
+          />
+          <h3>Dos Medianas (2 ing) por 8,95€ c/u</h3>
+          <p class="description">
+            Pide dos pizzas medianas (hasta 2 ingredientes) por 8,95€ cada una
+          </p>
+          <a class="vermas" href="https://www.telepizza.es/comida-a-domicilio/ofertas/?coupon-code=T(2P)01"rel="noopener"
+          target="_blank"> Ver más ></a>
+          <div class="grid-container spaceme">
+            <button>AÑADIR</button>
+          </div>
+        </article>
+      </section>
+<section class="miniproducts grid-container">
+  <article class="card mini grid-container">
+    <img
+      src="./assets/article3.png" alt="Dos Medianas Promo"
+    />
+    <h3>2x1 en pizzas (5 ing)</h3>
+    <p class="description">
+      Pide tu pizza favorita y llévate la segunda gratis (de igual o menor valor)
+    </p>
+    <a class="vermas" href="https://www.telepizza.es/comida-a-domicilio/ofertas/?coupon-code=T(2P)01"rel="noopener"
+    target="_blank"> Ver más ></a>
+    <div class="grid-container spaceme">
+      <button>AÑADIR</button>
+    </div>
+  </article>
+  <article class="card mini grid-container">
+    <img
+      src="./assets/article4.png" alt="Tarrina Promo"
+    />
+    <h3>Tarrina Almond</h3>
+    <p class="description">
+      Añade una Tarrina Magnum Almond por solo 5,50€
+    </p>
+    <a class="vermas" href="https://www.telepizza.es/comida-a-domicilio/ofertas/?coupon-code=T(2P)01"rel="noopener"
+    target="_blank"> Ver más ></a>
+    <div class="grid-container spaceme">
+      <button>AÑADIR</button>
+    </div>
+  </article>
+  <article class="card mini grid-container">
+    <img
+      src="./assets/article5.png" alt="Refrescos Promo"
+    />
+    <h3>2 refrescos (500 ml)</h3>
+    <p class="description">
+      Añade tus dos refrescos favoritos (500 ml) por solo 3,95€
+    </p>
+    <a class="vermas" href="https://www.telepizza.es/comida-a-domicilio/ofertas/?coupon-code=T(2P)01" rel="noopener"
+    target="_blank"> Ver más ></a>
+    <div class="grid-container spaceme">
+      <button>AÑADIR</button>
+    </div>
+  </article>
+</section>
+<section class="pizzasinfin flexbox"> 
+  <img src="./assets/bannerpizzasinfin.png" alt="Pizza sin Fin Oferta" class="pizzasinfin"></a>
+</section>
+<div class="title flexbox">
+ <h3 class="white"> Explora nuestro Menú</h3>
+</div>
+<section class="explorer grid-container">
+  <article class="card offers grid-container">
+    <a href="https://www.telepizza.es/comida-a-domicilio/ofertas" rel="noopener"
+    target="_blank">
+    <img
+      src="./assets/ofertas.webp" alt="Ofertas"
+    />
+    <h4>Ofertas</h4>
+  </a>
+</article>
+  
+  <article class="card offers grid-container">
+    <a href="https://www.telepizza.es/comida-a-domicilio/menus" rel="noopener"
+    target="_blank">
+    <img
+      src="./assets/menus.webp" alt="Menús"
+    />
+    <h4>Menús</h4>
+  </a>
+  </article>
+
+    
+  <article class="card offers grid-container">
+    <a href="https://www.telepizza.es/comida-a-domicilio/pizzas" rel="noopener"
+    target="_blank">
+    <img
+      src="./assets/Pizzas-PIZ_m-57.png" alt="Pizzas"
+    />
+    <h4>Pizzas</h4>
+  </a>
+  </article>
+
+    
+  <article class="card offers grid-container">
+    <a href="https://www.telepizza.es/comida-a-domicilio/entrantes"rel="noopener"
+    target="_blank">
+    <img
+      src="./assets/Entrantes-Ent_m-95.png" alt="Entrantes"
+    />
+    <h4>Entrantes</h4>
+  </a>
+  </article>
+
+    
+  <article class="card offers grid-container">
+    <a href="https://www.telepizza.es/comida-a-domicilio/bebidas" rel="noopener"
+    target="_blank">
+    <img
+      src="./assets/Bebidas-BEB_m-79.png" alt="Bebidas"
+    />
+    <h4>Bebidas</h4>
+  </a>
+  </article>
+
+    
+  <article class="card offers grid-container">
+    <a href="https://www.telepizza.es/comida-a-domicilio/postres" rel="noopener"
+    target="_blank">
+    <img
+      src="./assets/Postres-Pos_m-66.png" alt="Postres"
+    />
+    <h4>Postres</h4>
+  </a>
+  </article>
+</section>
+<section class="miaripi grid-container">
+<img src="./assets/banner-wt-1-1.webp" alt="Logo Mi Telepi">
+<h3>¡Pasar más tiempo juntos tiene recompensa!</h3>
+<p>Aprovecha promociones exclusivas mientras disfrutas de lo que más te gusta.</p>
+<div class="grid-container spaceme">
+  <button>REGÍSTRATE</button>
+</div>
+</section>
+<section id="secreto" class="flexbox">
+  <article class="info">
+  <h3>
+    ¿Tú también quieres saber cuál es nuestro secreto?
+  </h3>
+  <p>
+    En Telepizza llevamos desde 1987 cocinando nuestro mayor secreto: una masa fresca hecha cada día con los mejores ingredientes, para que cada una de nuestras pizzas sea única.
+    <br>
+    Y ahora que te lo hemos contado, ¿nos lo guardas?
+  </p>
+<img src="./assets/banner-wt-2-1.webp" alt="Desde 1987">
+<img src="./assets/banner-wt-2-2.webp" alt="Receta Secreta Mejorada">
+<img src="./assets/banner-wt-2-3.webp" alt="La Masa la Hacemos Nosotros">
+</article>
+<img src="./assets/banner-wt-desktop-2.webp" alt="Pizza de Bacon" class="megapizza"/>
+</section>
+
+<footer>
+<div class="contactbar flexbox">
+  <img src="./assets/arianpizzalogo_white.svg" alt="Logo Arianpizza" class="littlelogo"/>
+  <p> España: 912 760 000 </p>
+  <div class="socialicons">
+<a href="https://www.facebook.com/telepizza" rel="noopener"
+target="_blank">
+  <img src="./assets/facebook.webp" alt="Logo Facebook">
+</a>
+<a href="https://twitter.com/telepizza_es" rel="noopener"
+target="_blank">
+  <img src="./assets/ico-twitter.webp" alt="Logo Twitter">
+</a>
+<a href="https://www.youtube.com/user/TelepizzaEsp" rel="noopener"
+target="_blank">
+  <img src="./assets/ico-youtube.webp" alt="Logo Youtube">
+</a>
+<a href="https://www.instagram.com/telepizza_es/" rel="noopener"
+target="_blank">
+  <img src="./assets/ico-instagram.webp" alt="Logo Instagram">
+</a>
+  </div>
+</div>
+<nav class="footnav grid-container">
+<ul>
+  <li>Productos</li>
+  <li><a href="https://www.telepizza.es/productos/ofertas"rel="noopener"
+    target="_blank">Ofertas</a></li>
+  <li><a href="https://www.telepizza.es/productos/menus" rel="noopener"
+    target="_blank">Menús</a></li>
+  <li><a href="https://www.telepizza.es/productos/pizzas" rel="noopener"
+    target="_blank">Pizzas</a></li>
+  <li><a href="https://www.telepizza.es/productos/entrantes" rel="noopener"
+    target="_blank">Entrantes</a></li>
+  <li><a href="https://www.telepizza.es/productos/bebidas" rel="noopener"
+    target="_blank">Bebidas</a></li>
+  <li><a href="https://www.telepizza.es/productos/postres" rel="noopener"
+    target="_blank">Postres</a></li>
+</ul>
+<ul>
+  <li>Nutrición y Calidad</li>
+  <li><a href="https://www.telepizza.es/info/alimentacion-y-nutricion" rel="noopener" target="_blank">Calidad y Alimentación</a></li>
+  <li><a href="https://images.telepizza.com/vol/es/images/docs/alergenos.pdf" rel="noopener" target="_blank">Listado de alérgenos</a></li>
+  <li><a href="https://images.telepizza.com/vol/es/images/docs/nutricion.pdf" rel="noopener" target="_blank">Valores nutricionales</a></li>
+  <li><a href="https://images.telepizza.com/vol/es/images/docs/celiacos.pdf" rel="noopener" target="_blank">Tiendas para celíacos</a></li>
+  <li><a href="https://www.telepizza.es/info/tipos-de-masas" rel="noopener" target="_blank">Nuestras Masas</a></li>
+  <li><a href="https://www.telepizza.es/info/pizzas-sin-gluten" rel="noopener" target="_blank">Pizzas sin gluten</a></li>
+  <li><a href="https://www.telepizza.es/info/pizzas-gourmet" rel="noopener" target="_blank">Pizzas Gourmet</a></li>
+</ul>
+
+<ul>
+  <li>Eventos Arianpizza</li>
+  <li><a href="https://www.telepizza.es/info/cumpleanos" rel="noopener" target="_blank">Cumpleaños en Arianpizza</a></li>
+  <li><a href="https://www.telepizza.es/buffet-pizza-bebida-sin-fin" rel="noopener" target="_blank">Come y bebe sin fin</a></li>
+</ul>
+
+<ul>
+  <li>Corporativo</li>
+  <li><a href="https://www.fooddeliverybrands.com/" rel="noopener" target="_blank">Acerca de Arianpizza</a></li>
+  <li><a href="https://empleo.fooddeliverybrands.com/" rel="noopener" target="_blank">Trabaja con nosotros</a></li>
+  <li><a href="https://www.telepizza.es/info/franquicias" rel="noopener" target="_blank">Franquíciate</a></li>
+</ul>
+
+<ul>
+  <li>Ayuda</li>
+  <li><a href="https://www.telepizza.es/pizzerias" rel="noopener" target="_blank">Localizador pizzerías</a></li>
+  <li><a href="https://www.telepizza.es/info/contacto" rel="noopener" target="_blank">Contacto</a></li>
+  <li><a href="https://www.telepizza.es/info/faqs" rel="noopener" target="_blank">Preguntas Frecuentes</a></li>
+  <li><a href="https://www.telepizza.es/info/coronavirus-protocolo" rel="noopener" target="_blank">COVID-19</a></li>
+</ul>
+<ul>
+  <li>Aviso Legal</li>
+  <li><a href="https://www.telepizza.es/info/aviso-legal" rel="noopener" target="_blank">Aviso legal</a></li>
+  <li><a href="https://www.telepizza.es/info/aviso-legal#condiciones" rel="noopener" target="_blank">Condiciones generales</a></li>
+  <li><a href="https://www.telepizza.es/info/politica-de-privacidad" rel="noopener" target="_blank">Política de privacidad</a></li>
+  <li><a href="https://www.telepizza.es/info/cookies" rel="noopener" target="_blank">Política de cookies</a></li>
+  <li><a href="https://images.telepizza.com/vol/es/images/docs/adheridas.pdf" rel="noopener" target="_blank">Condiciones promocionales</a></li>
+  <li><a href="https://www.telepizza.es/info/estafas-electronicas" rel="noopener" target="_blank">Prevención Fraude Electrónico</a></li>
+</ul>
+
+<ul>
+  <li>Desde tu móvil</li>
+  <li><a href="https://www.telepizza.es/info/app" rel="noopener" target="_blank">Información general</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=com.s4d.telepizza_es.prd" rel="noopener" target="_blank">Android</a></li>
+  <li><a href="https://apps.apple.com/es/app/telepizza-espa%C3%B1a/id1613492214" rel="noopener" target="_blank">iPhone/iPad</a></li>
+</ul>
+</nav>
+</footer>
+
+  </body>
+</html>
